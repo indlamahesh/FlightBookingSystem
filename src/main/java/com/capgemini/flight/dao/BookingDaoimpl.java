@@ -1,4 +1,4 @@
-package com.cg.capgemin.flight.dao;
+package com.capgemini.flight.dao;
 
 import java.math.BigInteger;
 import java.util.Map;

@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
+import com.capgemini.flight.dao.BookingDao;
+import com.capgemini.flight.dao.BookingDaoimpl;
 import com.capgemini.flight.entity.Bookings;
 import com.capgemini.flight.entity.Passenger;
 import com.capgemini.flight.entity.ScheduledFlight;
@@ -14,8 +16,6 @@ import com.capgemini.flight.exception.BookingIdException;
 import com.capgemini.flight.exception.FlightScheduleException;
 import com.capgemini.flight.exception.UserIdException;
 import com.capgemini.flight.util.FlightRepository;
-import com.cg.capgemin.flight.dao.BookingDao;
-import com.cg.capgemin.flight.dao.BookingDaoimpl;
 
 /**
  * @author Indla Mahesh

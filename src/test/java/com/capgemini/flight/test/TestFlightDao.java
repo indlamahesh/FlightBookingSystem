@@ -7,11 +7,11 @@ import java.math.BigInteger;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import com.capgemini.flight.dao.BookingDao;
+import com.capgemini.flight.dao.BookingDaoimpl;
 import com.capgemini.flight.exception.BookingIdException;
 import com.capgemini.flight.exception.FlightScheduleException;
 import com.capgemini.flight.exception.UserIdException;
-import com.cg.capgemin.flight.dao.BookingDao;
-import com.cg.capgemin.flight.dao.BookingDaoimpl;
 
 public class TestFlightDao {
 
